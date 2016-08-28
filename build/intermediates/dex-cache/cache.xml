@@ -2,11 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="/home/dmusiolik/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
         revision="24.0.0"
-        sha1="cfccddc6aedd8805a6dae033e10a3a9ff5ec12c2">
-        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3dd30c5d942dc69079e10bfca8bbd90f1a46a9b0/classes.dex" />
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_47834ad95321b9f59ab869f13722d0e8df1af98e.jar" />
+    </item>
+    <item
+        jar="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_5f8472993599e79c15cea36696651bb6f8c3c26e.jar" />
+    </item>
+    <item
+        jar="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_123eb6bebe57d5423906c5a2d1168245a0f85ed1.jar" />
+    </item>
+    <item
+        jar="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_1ceca2bf056d694b1c427249eb9d651f8884bf14.jar" />
+    </item>
+    <item
+        jar="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_98b4e8082370f939f5070336b91dca47f7e1a504.jar" />
+    </item>
+    <item
+        jar="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_daa97a0a626c4d9bb3df3778d3a4c390583f3c1f.jar" />
     </item>
 
 </items>

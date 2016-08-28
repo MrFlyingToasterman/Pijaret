@@ -14,7 +14,7 @@
         android:id="@+id/editText"
         android:nestedScrollingEnabled="false"
         android:editable="true"
-        android:hint="Input text for en/decryption"
+        android:hint="Input text for en/de-cryption"
         android:linksClickable="true"
         android:allowUndo="true"
         android:autoText="false"
@@ -25,14 +25,14 @@
         android:layout_below="@+id/editText2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:background="#768bae"
         android:textColor="#ffffff"
         android:textColorHint="#484848"
         android:paddingLeft="5dp"
-        android:paddingTop="5dp" />
+        android:paddingTop="5dp"
+        android:layout_above="@+id/button3" />
 
     <Button
         android:layout_width="wrap_content"
@@ -63,11 +63,23 @@
         android:ems="10"
         android:id="@+id/editText2"
         android:password="true"
-        android:hint="Nummeric Key"
+        android:hint="Numeric Key"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/button2"
         android:layout_toStartOf="@+id/button2"
         android:textColorHint="#484848" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy to clipboard"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:onClick="ctc" />
 </RelativeLayout>
