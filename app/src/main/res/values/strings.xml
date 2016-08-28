@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pijaret</string>
+    <string name="btn1">Encrypt</string>
+    <string name="btn2">Decrypt</string>
+</resources>

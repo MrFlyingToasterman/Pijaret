@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="cfccddc6aedd8805a6dae033e10a3a9ff5ec12c2">
+        <dex dex="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3dd30c5d942dc69079e10bfca8bbd90f1a46a9b0/classes.dex" />
+    </item>
+
+</items>
