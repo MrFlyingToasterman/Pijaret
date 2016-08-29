@@ -19,7 +19,6 @@
         android:allowUndo="true"
         android:autoText="false"
         android:elegantTextHeight="false"
-        android:inputType="text"
         android:singleLine="false"
         android:gravity="top"
         android:layout_below="@+id/editText2"
@@ -32,7 +31,8 @@
         android:textColorHint="#484848"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
-        android:layout_above="@+id/button3" />
+        android:layout_above="@+id/button3"
+        android:inputType="textMultiLine" />
 
     <Button
         android:layout_width="wrap_content"
@@ -81,5 +81,6 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/editText"
         android:layout_alignEnd="@+id/editText"
-        android:onClick="ctc" />
+        android:onClick="ctc"
+        android:backgroundTint="#a6c1e0" />
 </RelativeLayout>
