@@ -451,6 +451,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020048
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020049
 int drawable abc_textfield_search_material 0x7f02004a
 int drawable notification_template_icon_bg 0x7f02004b
+int id about 0x7f0c0067
 int id action0 0x7f0c0055
 int id action_bar 0x7f0c0041
 int id action_bar_activity_content 0x7f0c0000
@@ -479,10 +480,12 @@ int id checkbox 0x7f0c0039
 int id chronometer 0x7f0c005c
 int id collapseActionView 0x7f0c001d
 int id contentPanel 0x7f0c0031
+int id copy 0x7f0c0064
 int id custom 0x7f0c0037
 int id customPanel 0x7f0c0036
 int id decor_content_parent 0x7f0c003f
 int id default_activity_button 0x7f0c0027
+int id delete_key 0x7f0c0066
 int id disableHome 0x7f0c000c
 int id editText 0x7f0c0050
 int id editText2 0x7f0c0051
@@ -497,10 +500,12 @@ int id icon 0x7f0c0029
 int id ifRoom 0x7f0c001e
 int id image 0x7f0c0026
 int id info 0x7f0c0060
+int id input 0x7f0c0063
 int id line1 0x7f0c005a
 int id line3 0x7f0c005e
 int id listMode 0x7f0c0009
 int id list_item 0x7f0c0028
+int id make_mrpropper 0x7f0c0062
 int id media_actions 0x7f0c0058
 int id middle 0x7f0c001b
 int id multiply 0x7f0c0014
@@ -511,6 +516,7 @@ int id parentPanel 0x7f0c002d
 int id progress_circular 0x7f0c0005
 int id progress_horizontal 0x7f0c0006
 int id radio 0x7f0c003b
+int id save_key 0x7f0c0065
 int id screen 0x7f0c0015
 int id scrollIndicatorDown 0x7f0c0035
 int id scrollIndicatorUp 0x7f0c0032
@@ -592,6 +598,7 @@ int layout select_dialog_item_material 0x7f040022
 int layout select_dialog_multichoice_material 0x7f040023
 int layout select_dialog_singlechoice_material 0x7f040024
 int layout support_simple_spinner_dropdown_item 0x7f040025
+int menu menu 0x7f0d0000
 int mipmap ic_launcher 0x7f030000
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060001
