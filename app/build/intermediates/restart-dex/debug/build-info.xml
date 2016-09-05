@@ -4,7 +4,7 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="89610412070305"
+    timestamp="129802373231232"
     token="3001796838730993182" >
 
     <task
@@ -15,16 +15,16 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="11" />
+        duration="21" />
     <task
         name="verifier"
-        duration="10" />
+        duration="0" />
 
     <artifact
         location="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="89610412070305" >
+    <build timestamp="129802373231232" >
         <artifact
             location="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
