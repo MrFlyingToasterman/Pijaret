@@ -2,6 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/make_mrpropper"
         android:title="Clean up" />
+    <item android:id="@+id/show_key"
+        android:title="Show key" />
+    <item android:id="@+id/hide_key"
+        android:title="Hide key" />
     <item android:id="@+id/input"
         android:title="Get from Clipboard" />
     <item android:id="@+id/copy"

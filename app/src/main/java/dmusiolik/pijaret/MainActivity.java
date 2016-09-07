@@ -9,6 +9,8 @@ import android.content.ClipboardManager;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -23,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     //Deklare the crypt_key var
     public static String crypt_key = null;
     //Deklare Version
-    public static final String version = "1.5.1";
+    public static final String version = "1.5.2";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,11 +61,18 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog alertDialog;
                 alertDialog = new AlertDialog.Builder(this, AlertDialog.THEME_DEVICE_DEFAULT_DARK).create();
                 alertDialog.setTitle("About");
-                alertDialog.setMessage("Pijaret v" + version + "\n(Pijaret is just another rotation encryption tool)\n\nThis is Free (as in freedom) Software written by Darius Musiolik 2k16.\nBut not Copyrighted or anything!\nFeel free to copy, fork or do what ever you want with my code. You don't have to credit me in your fork:\n\nhttps://www.GitHub.com/MrFlyingToasterman");
+                alertDialog.setMessage("Pijaret v" + version + "\n(Pijaret is just another rotation encryption tool)\n\nThis is Free (as in freedom) Software written by Darius Musiolik 2k16.\nBut not Copyrighted or anything!\nFeel free to copy, fork or do what ever you want with my code. You don't have to credit me in your fork:\n\nhttps://www.GitHub.com/MrFlyingToasterman"
+                                        + "\n\n\nPLEASE NOTICE THIS IS A TOYCRYPTER!\nDO NOT USE FOR SERIOUS CRYPTION!");
                 alertDialog.show();
                 return true;
             case R.id.make_mrpropper:
                 clearup();
+                return true;
+            case R.id.show_key:
+                showkey();
+                return true;
+            case R.id.hide_key:
+                hidekey();
                 return true;
             case R.id.input:
                 getfc();
@@ -136,6 +145,26 @@ public class MainActivity extends AppCompatActivity {
         else if (Integer.parseInt(keybox.getText().toString()) <= 9999) {
             keybox.setError("Your key is weak!");
         }
+
+    }
+
+    //Show key
+    public void showkey() {
+        //get object
+        TextView keybox = (TextView) findViewById(R.id.editText2);
+
+        //Set InputType
+        keybox.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+
+    }
+
+    //Hide key
+    public void hidekey() {
+        //get object
+        TextView keybox = (TextView) findViewById(R.id.editText2);
+
+        //Set InputType
+        keybox.setTransformationMethod(PasswordTransformationMethod.getInstance());
 
     }
 

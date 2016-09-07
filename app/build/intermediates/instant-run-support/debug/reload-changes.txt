@@ -1,0 +1,3 @@
+CHANGED,/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dmusiolik/pijaret/BuildConfig$override.class
+CHANGED,/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dmusiolik/pijaret/MainActivity$override.class
