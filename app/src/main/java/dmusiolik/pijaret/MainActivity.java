@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     //Deklare the crypt_key var
     public static String crypt_key = null;
     //Deklare Version
-    public static final String version = "1.5";
+    public static final String version = "1.5.1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,6 +117,31 @@ public class MainActivity extends AppCompatActivity {
     public void displaytoast(String msg) {
         Toast.makeText(MainActivity.this,
                 msg, Toast.LENGTH_SHORT).show();
+    }
+
+    //Warnings
+    public void warning() {
+        //get objects
+        TextView keybox = (TextView) findViewById(R.id.editText2);
+
+        //Display warning
+        if (Integer.parseInt(keybox.getText().toString()) <= 99) {
+            keybox.setError("YOUR KEY IS VERY VERY VERY WEAK!!");
+        }
+        //Display warning
+        else if (Integer.parseInt(keybox.getText().toString()) <= 999) {
+            keybox.setError("Your key is very weak!");
+        }
+        //Display warning
+        else if (Integer.parseInt(keybox.getText().toString()) <= 9999) {
+            keybox.setError("Your key is weak!");
+        }
+        //catch buffer overflow
+        else if (Integer.parseInt(keybox.getText().toString()) > 1999999999) {
+            keybox.setError("Your key is to long");
+            return;
+        }
+
     }
 
     //Clear function
@@ -219,6 +244,9 @@ public class MainActivity extends AppCompatActivity {
             displaytoast("Keybox invalid");
             return;
         }
+
+        //Check for warnings
+        warning();
 
         //set var's
         String content = contextbox.getText().toString();
