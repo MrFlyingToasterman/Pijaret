@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="22"
-    density="560dpi"
+    api-level="23"
+    density="420dpi"
     format="7"
-    timestamp="177257691589058"
+    timestamp="180142379491663"
     token="3001796838730993182" >
 
     <task
         name="javac"
-        duration="184" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
+        location="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="176592667473232" >
+    <build timestamp="179989361118174" >
         <artifact
             location="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="177257691589058" >
+    <build timestamp="180142379491663" >
         <artifact
-            location="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
+            location="/crypthome/dmusiolik/AndroidStudioProjects/Pijaret/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

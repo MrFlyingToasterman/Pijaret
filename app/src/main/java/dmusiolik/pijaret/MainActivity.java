@@ -136,11 +136,6 @@ public class MainActivity extends AppCompatActivity {
         else if (Integer.parseInt(keybox.getText().toString()) <= 9999) {
             keybox.setError("Your key is weak!");
         }
-        //catch buffer overflow
-        else if (Integer.parseInt(keybox.getText().toString()) > 1999999999) {
-            keybox.setError("Your key is to long");
-            return;
-        }
 
     }
 
