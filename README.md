@@ -7,6 +7,7 @@ Pijaret is just another rotation encryption tool. (For Android)
 Pijaret is just a small cipher and not for serious purpose. <br>
 Please see my Schoolwork as a <b> Toycrypter. </b> <br>
 <b>The encryption is extremely weak. </b><br>
+<b>Do NOT use for important communications!</b><br>
 Read about ROT encryption: https://en.wikipedia.org/wiki/ROT13
 
 ##Target
