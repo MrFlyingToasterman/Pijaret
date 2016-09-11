@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     //Deklare the crypt_key var
     public static String crypt_key = null;
     //Deklare Version
-    public static final String version = "1.5.2";
+    public static final String version = "1.6";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,15 @@ public class MainActivity extends AppCompatActivity {
         //get object
         TextView keybox = (TextView) findViewById(R.id.editText2);
 
-        //
+        //First Time start warning
+        if (getPreferenceValue("warn").equals("TheDefaultValueIfNoValueFoundOfThisKey")) {
+            //Show Warning
+            startup_warning();
+        }else{
+            //Do nothing
+        }
+
+        //Looking for saved key
         if (getPreferenceValue("key").equals("TheDefaultValueIfNoValueFoundOfThisKey")) {
             //Do nothing
         }else{
@@ -106,6 +114,17 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void startup_warning() {
+        AlertDialog warn;
+        warn = new AlertDialog.Builder(this, AlertDialog.THEME_DEVICE_DEFAULT_DARK).create();
+        warn.setTitle("WARNING");
+        warn.setMessage("Pijaret v" + version + " IS A TOYCRYPTER!\nDO NOT USE FOR SERIOUS CRYPTION!");
+        warn.show();
+
+        //Set warn value
+        writeToPreference("Startwarning_off", "warn");
     }
 
     //Method to geting saved values
