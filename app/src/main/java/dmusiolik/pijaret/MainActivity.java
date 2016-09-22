@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     //Deklare the crypt_key var
     public static String crypt_key = null;
     //Deklare Version
-    public static final String version = "1.6";
+    public static final String version = "1.7";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -245,18 +245,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //deencrypt
-    String uncipher(String input, int cryptvalue){
+    String uncipher(String input, int cryptvalue) {
         String s = "";
         int len = input.length();
+        for(int x = 0; x < len; x++) {
+            char c = (char)(input.charAt(x) - cryptvalue);
 
-        for(int i = 0; i < len; i++) {
-            char c = (char)(input.charAt(i) - cryptvalue);
-            if (c > 'z') {
-                s += (char)(input.charAt(i) + (27 + cryptvalue));
-            }
-            else {
-                s += (char)(input.charAt(i) - cryptvalue);
-            }
+            s += (char)(input.charAt(x) - cryptvalue);
+
         }
         return s;
     }
